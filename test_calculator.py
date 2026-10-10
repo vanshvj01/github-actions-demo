@@ -1,5 +1,5 @@
 import pytest
-from calculator import add, subtract, multiply, divide, heat_index_category
+from calculator import power, add, subtract, multiply, divide, heat_index_category
 
 
 def test_add():
@@ -30,3 +30,8 @@ def test_divide_by_zero():
 ])
 def test_heat_index_category(temp, expected):
     assert heat_index_category(temp) == expected
+
+
+def test_power():
+    assert power(2, 3) == 8
+    assert power(5, 0) == 1

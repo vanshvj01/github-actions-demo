@@ -19,6 +19,11 @@ def divide(a, b):
     return a / b
 
 
+def power(a, b):
+    """Return a raised to the power b."""
+    return a * b
+
+
 def heat_index_category(temp_c):
     """Classify a temperature (deg C) using the IMD plains heatwave thresholds."""
     if temp_c >= 47:

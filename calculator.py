@@ -10,7 +10,7 @@ def subtract(a, b):
 
 
 def multiply(a, b):
-    return a * b
+    return a ** b
 
 
 def divide(a, b):
@@ -21,7 +21,7 @@ def divide(a, b):
 
 def power(a, b):
     """Return a raised to the power b."""
-    return a * b
+    return a ** b
 
 
 def heat_index_category(temp_c):
